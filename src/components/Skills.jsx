@@ -10,7 +10,7 @@ const Skills = () => {
 
 
     return (
-        <section className='section-container'>
+        <section className='section-container' id="skills">
             <h2>Mes compétences</h2>
             <Skill title="Développement front-end" description="Réalisation d'interface utilisateur" otherTitle="Logiciels, langages utilisés" skills={frontendSkills}/>
             <Skill title="Développement back-end" description="Création d'un serveur, sécurisation des données" otherTitle="Logiciels, langages utilisés" skills={backendSkills}/>
