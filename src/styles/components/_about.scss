@@ -1,6 +1,9 @@
-.section-container {
-  margin: 40px;
+#about {
+  @include margeSection;
+
   p {
+    padding-top: 60px;
     text-align: center;
+    font-size: 1.8rem;
   }
 }

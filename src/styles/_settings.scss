@@ -13,16 +13,14 @@
   font-family: "Roboto", serif;
 }
 
+@mixin margeSection {
+  margin: 80px 40px;
+}
+
 // les sections
 
-.section-container {
-  h2 {
-    font-size: 3rem;
-    text-align: center;
-    color: #0d3c48;
-  }
-
-  p {
-    font-size: 1.8rem;
-  }
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #0d3c48;
 }
