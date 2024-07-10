@@ -1,8 +1,11 @@
 #about {
   @include margeSection;
 
+  h2 {
+    margin-bottom: 80px;
+  }
+
   p {
-    padding-top: 60px;
     text-align: center;
     font-size: 1.8rem;
   }

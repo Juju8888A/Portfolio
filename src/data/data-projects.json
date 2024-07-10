@@ -1,0 +1,26 @@
+[
+    {
+      "id": "1",
+      "title": "Booki",
+      "pictures": [
+        "/assets/images/booki/booki-accueil-2.jpg"
+      ],
+      "description": "Création de la page d'accueil de l'agence Booki avec HTML et CSS."
+    },
+    {
+      "id": "2",
+      "title": "Sophie Bluel",
+      "pictures": [
+        "/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
+      ],
+      "description": "Création d'une page web dynanique avec JavaScript"
+    },
+    {
+      "id": "3",
+      "title": "Kasa",
+      "pictures": [
+        "/assets/images/kasa/kasa_accueil.webp"
+      ],
+      "description": "Création d'une page web dynanique avec JavaScript"
+    }
+  ]
