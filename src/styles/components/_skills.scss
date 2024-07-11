@@ -4,7 +4,7 @@
 
   h2 {
     color: #fafdfe;
-    margin-bottom: 80px;
+    margin-bottom: 130px;
   }
 }
 
@@ -17,30 +17,59 @@
   margin-top: 60px;
 
   .skills-card {
-    width: 400px;
+    color: #107d98;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 50px;
     background-color: #fafdfe;
-    padding: 30px;
+    padding: 30px 30px 50px 30px;
     border-radius: 20px;
     box-shadow: 0px 1px 10px 1px rgba(13, 60, 72, 0.3);
+    position: relative;
+
+    span {
+      position: absolute;
+      transform: translateX(-50%);
+      left: 50%;
+      top: -55px;
+      font-size: 2.5rem;
+      background-color: #29a2c0;
+      color: #fafdfe;
+      padding: 30px;
+      border-radius: 70px;
+    }
 
     h3 {
+      color: #0d3c48;
       font-size: 2rem;
+      margin-top: 60px;
     }
 
     p {
+      text-align: center;
       font-size: 1.2rem;
     }
 
     h4 {
+      color: #0d3c48;
       font-size: 1.4rem;
     }
 
     ul {
       list-style-type: none;
       font-size: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      li {
+        background-color: #f2fafb;
+        border: 1px solid #107d98;
+        padding: 10px;
+        border-radius: 50px;
+      }
     }
   }
 }

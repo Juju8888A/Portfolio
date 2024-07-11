@@ -1,7 +1,6 @@
 import React from 'react';
 import Skill from './Skill';
 import DownloadButton from './DownloadButton';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faComputer,
   faServer,
@@ -23,9 +22,10 @@ const Skills = () => {
             
             <h2>Mes compétences</h2>
             <div className='skills-cards-container'>
-            <Skill title="Développement front-end" description="Réalisation d'interface utilisateur" otherTitle="Logiciels, langages utilisés" skills={frontendSkills}/>
-            <Skill title="Développement back-end" description="Création d'un serveur, sécurisation des données" otherTitle="Logiciels, langages utilisés" skills={backendSkills}/>
-            <Skill title="Animation 3D" description="Animation des personnages" otherTitle="Logiciels, langages utilisés" skills={animationSkills}/>
+            <Skill icone={faComputer} title="Développement front-end" description="Développement d'interfaces responsives, dynamiques et fonctionnelles / SEO / Gestion de projet Agile" otherTitle="Logiciels, langages utilisés" skills={frontendSkills}/>
+            <Skill icone={faServer} title="Développement back-end" description="Gestion d'un serveur, des interactions utilisateurs, communiquer avec des
+APIs, utilisation des opérations CRUD, sécurisation des données, authentification" otherTitle="Logiciels, langages utilisés" skills={backendSkills}/>
+            <Skill icone={faFilm} title="Animation 3D" description="Animation de personnages fluides, cartoons ou réalistes en respectant les contraintes techniques" otherTitle="Logiciels, langages utilisés" skills={animationSkills}/>
             </div>
             <DownloadButton fileUrl={cvUrl} fileName="cv_juliette_jourdan.pdf" />
         </section>
