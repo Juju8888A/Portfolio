@@ -10,10 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="contact-section">
-        <div id="contact" className="contact-left">
-          <h4>Contact</h4>
-          <img src="" alt="image de contact" />
-        </div>
+          <h4 id="contact">Contact</h4>
         <div className="infos">
           <div className="icone">
             <ul>

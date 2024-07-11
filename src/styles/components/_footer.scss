@@ -3,16 +3,11 @@ footer {
   height: auto;
 
   .contact-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 40px;
-    height: 80%;
+    padding: 60px;
     background-color: #def7f9;
 
     #contact {
-      display: flex;
-      flex-direction: column;
+      margin: 0 auto;
       font-size: 3rem;
       text-align: center;
       color: #0d3c48;
@@ -20,8 +15,9 @@ footer {
 
     .infos {
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
       gap: 30px;
+      padding-top: 70px;
 
       ul {
         list-style-type: none;
