@@ -1,7 +1,7 @@
 .banner {
   background: url(../../../public/assets/images/paysage.webp) center/cover;
   width: 100%;
-  height: 100%;
+  height: 820px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,5 +14,18 @@
     font-size: 3rem;
     color: #f4faff;
     font-weight: 300;
+    opacity: 0;
+    position: absolute;
+    left: 50;
+    animation: titleAppear 1.5s forwards;
+  }
+
+  @keyframes titleAppear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
