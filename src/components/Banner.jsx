@@ -7,7 +7,7 @@ const Banner = () => {
       Je suis Juliette Jourdan, <br/>
       développeuse front-end</h1>
 
-      <img src="./portrait_juliette_2.jpg" alt="portrait de juliette jourdan" />
+      {/* <img src="./portrait_juliette_2.jpg" alt="portrait de juliette jourdan" /> */}
     </section>
   );
 };

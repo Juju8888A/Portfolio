@@ -1,3 +1,53 @@
 footer {
   margin-top: auto;
+  height: auto;
+
+  .contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+    height: 80%;
+    background-color: #def7f9;
+
+    #contact {
+      display: flex;
+      flex-direction: column;
+      font-size: 3rem;
+      text-align: center;
+      color: #0d3c48;
+    }
+
+    .infos {
+      display: flex;
+      justify-content: flex-end;
+      gap: 30px;
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        #my-name {
+          font-family: "Playwrite NL", cursive;
+          color: #107d98;
+        }
+
+        li {
+          font-size: 2rem;
+          color: #0d3c48;
+        }
+      }
+    }
+  }
+
+  .bottom-page {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 20%;
+    background-color: #0797b9;
+    font-size: 1.2rem;
+  }
 }
