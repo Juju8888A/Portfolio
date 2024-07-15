@@ -10,16 +10,25 @@ header {
   padding: 20px 40px;
   background-color: #fafdfe;
 
-  .logo-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  .logo-container h2 {
     color: #0d3c48;
-    font-size: 1.8rem;
+    font-size: 3rem;
     font-family: "Playwrite NL", cursive;
+
+    @media (max-width: 1280px) {
+      margin-right: 50px;
+      font-size: 2.5rem;
+    }
   }
 
   nav {
+    @media (max-width: 980px) {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
     ul {
       display: flex;
       flex-direction: row;
@@ -32,6 +41,10 @@ header {
         text-decoration: none;
         color: #0d3c48;
         font-size: 1.5rem;
+
+        @media (max-width: 1280px) {
+          font-size: 1.3rem;
+        }
       }
     }
   }

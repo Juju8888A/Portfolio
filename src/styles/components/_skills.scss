@@ -15,6 +15,11 @@
   flex-wrap: wrap;
   gap: 60px;
   margin-top: 60px;
+  padding: 0 30px;
+
+  @media (max-width: 1700px) {
+    gap: 120px;
+  }
 
   .skills-card {
     color: #107d98;

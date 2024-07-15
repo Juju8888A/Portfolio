@@ -15,16 +15,38 @@
     justify-content: center;
     gap: 100px;
 
+    @media (max-width: 1000px) {
+      gap: 50px;
+    }
+
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 100px;
+    }
+
     .texte-liens {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       width: 50%;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
       p {
         color: #0d3c48;
         text-align: justify;
         font-size: 1.8rem;
+
+        @media (max-width: 1280px) {
+          font-size: 1.6rem;
+        }
+
+        @media (max-width: 1000px) {
+          font-size: 1.4rem;
+        }
       }
       .liens-externes {
         display: flex;
@@ -35,6 +57,10 @@
           color: #0d3c48;
           font-size: 5rem;
           transition: transform 0.5s ease;
+
+          @media (max-width: 768px) {
+            font-size: 4rem;
+          }
         }
         #lien-github:hover,
         #lien-linkedin:hover {
@@ -53,6 +79,15 @@
         height: 342px;
 
         border-radius: 500px;
+
+        @media (max-width: 1280px) {
+          font-size: 1.6rem;
+          height: 300px;
+        }
+
+        @media (max-width: 1000px) {
+          height: 280px;
+        }
       }
     }
   }

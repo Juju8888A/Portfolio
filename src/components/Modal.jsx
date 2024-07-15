@@ -37,7 +37,7 @@ const Modal = ({ title, objectif, closeModal, github, competences, description, 
           ))}</ul>
           <div className='liens-modal'>
         {github && (
-            <a href={site} target="_blank" rel="noopener noreferrer" id="modal-github">
+            <a href={github} target="_blank" rel="noopener noreferrer" id="modal-github">
               <FontAwesomeIcon icon={faGithub}/>
             </a>
           )}
