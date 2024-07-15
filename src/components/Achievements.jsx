@@ -25,6 +25,7 @@ const Achievements = () => {
         {dataProjects.map((data) => (
           <figure key={data.id}>
             <img src={data.pictures[0]} alt={data.pictures} onClick={() => openModal(data)} />
+            <figcaption>{data.objectif}</figcaption>
           </figure>
         ))}
       </div>
