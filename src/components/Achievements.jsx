@@ -20,7 +20,7 @@ const Achievements = () => {
   return (
     <section id="achievements">
       <h2>Mes Réalisations</h2>
-      {isModalOpen && <Modal title={modalContent.title} objectif={modalContent.objectif} github={modalContent.github} competences={modalContent.competences} description={modalContent.description} closeModal={closeModal} />}
+      {isModalOpen && <Modal title={modalContent.title} objectif={modalContent.objectif} github={modalContent.github} competences={modalContent.competences} description={modalContent.description} site={modalContent.site} closeModal={closeModal} />}
       <div className="data-cards">
         {dataProjects.map((data) => (
           <figure key={data.id}>

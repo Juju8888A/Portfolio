@@ -2,57 +2,59 @@
   {
     "id": "1",
     "title": "Kasa",
-    "objectif":"Créez une application web de location immobilière avec React",
+    "objectif":"Création d'une application web de location immobilière avec React",
     "competences": ["JavaScript", "React"],
     "pictures": ["/assets/images/kasa/kasa_accueil.webp"],
-    "description": "Création d'une page web dynanique avec JavaScript",
+    "description": "Ce projet m'a permis d'implémenter le front-end d'une application en utilisant React et React Router. Je me suis basée sur la maquette founie et utilisé des données extraites d'un fichier JSON. J'ai créé une page d'accueil, à propos, location individuelle et une page d'erreur. J'ai mis en place différents composants et utiliser Sass pour styliser le site.",
     "github": "https://github.com/Juju8888A/OC-Kasa.git"
+    
   },
 
   {
     "id": "2",
-    "title": "Sophie Bluel",
-    "objectif":"Créez une page web dynamique avec JavaScript",
-    "competences": ["JavaScript", "API", "Swagger"],
+    "title": "Portfolio Sophie Bluel",
+    "objectif":"Création d'une page web dynamique avec JavaScript",
+    "competences": ["JavaScript", "API", "Documentation Swagger"],
     "pictures": [
       "/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
     ],
-    "description": "Création d'une page web dynanique avec JavaScript",
+    "description": "Pour ce projet, j'ai codé la page de connexion du site et créé un formulaire de connexion fonctionnel. J'ai mis les données existantes en dynamique et utilisé les requêtes pour communiquer avec l'API et sauvegarder des données, cela m'a également permis d'authentifier l'utilisateur et de recevoir un token d'authentification. L'utilisateur peut donc se connecter au site et accéder à l'ajout ou suppression d'un projet.",
     "github": "https://github.com/Juju8888A/OC-Portfolio-Sophie-Bluel.git"
   },
   {
     "id": "3",
     "title": "Booki",
-    "objectif":"Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "objectif":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
     "competences": ["HTML", "CSS", "Responsive"],
     "pictures": ["/assets/images/booki/booki-accueil.webp"],
     "description": "J'ai commencé par mettre en place l'environnement de développement, en utilisant Visual Studio Code et initialisé le projet avec Git, publié le repository sur Github. J'ai découpé visuellement la maquette fournie, pour créer la structure du code HTML. J'ai utilisé les balises sémantiques pour concevoir une page web optimisée. J'ai crée le formulaire, les filtres et l'affichage des cards. J'ai également mis en place le responsive design, en utilisant les media queries, le site est lisible sur ordinateur, tablette et mobile.",
-    "github": "https://github.com/Juju8888A/OC-Booki.git"
+    "github": "https://github.com/Juju8888A/OC-Booki.git",
+    "site": "https://juju8888a.github.io/OC-Booki/"
   },
   {
     "id": "4",
     "title": "Mon vieux grimoire",
-    "objectif":"Développez le back-end d'un site de notation de livres",
+    "objectif":"Développement du back-end d'un site de notation de livres",
     "competences": ["MongoDB", "NodeJS", "Express"],
     "pictures": ["/assets/images/mon_vieux_grimoire/grimoire_accueil.webp"],
-    "description": "Création d'une page web dynanique avec JavaScript",
+    "description": "Pour le site Mon vieux grimoire, j'ai créé un serveur Express pour pouvoir créer, enregistrer et supprimer des livres. J'ai configuré et connecter le base de données MongoDB au projet. J'ai mis en place un système d'authentification pour sécuriser l'authentification des utilisateurs.",
     "github": "https://github.com/Juju8888A/OC-Mon-vieux-grimoire.git"
   },
   {
     "id": "5",
     "title": "Portfolio Nina Carducci",
-    "objectif":"Débuggez et optimisez un site de photographe",
+    "objectif":"Optimisation et debug d'un site de photographe",
     "competences": ["SEO", "Accessibilité", "Lighthouse", "Wave"],
     "pictures": ["/assets/images/nina_carducci/nina_carducci_accueil.webp"],
-    "description": "Création d'une page web dynanique avec JavaScript",
+    "description": "J'ai tout d'abord réalisé un rapport d'audit avec Lightouse. J'ai optimisé les performances du site en effectuant les modifications nécessaires. J'ai optimisé le SEO du site en prêtant attention à la sémantique du code. J'ai minifier les fichiers et ajouté un référencement local. J'ai corriger l'accessibilité du site pour permettre qu'il soit lisible par tous.",
     "github": "https://github.com/Juju8888A/OC-Photographe-Nina-Carducci.git"
   },
   {
     "id": "6",
     "title": "Menu Maker by Qwenta",
-    "objectif":"Planifiez le développement du site de votre client",
+    "objectif":"Planification du développement du site du client",
     "competences": ["Gestion de projet", "Kanban", "Spécifications techniques", "Veille technologique"],
     "pictures": ["/assets/images/menu_maker/menu-maker.webp"],
-    "description": "Création d'une page web dynanique avec JavaScript"
+    "description": "Sur ce projet, j'ai dû planifier le développement du site Menu Maker en réalisant un kanban et en organisant le projet avec la méthodologie Agile et Scrum. J'ai créé un planning avec des sprints, estimer la durée du projet grâce aux story points. J'ai également choisi et définit les choix techniques, quel framework, api ou base de données pour le projet. J'ai réalisé une veille technologique pour que l'équipe reste au courant des dernières nouveautés et mises à jour dans le domaine du développement web."
   }
 ]
