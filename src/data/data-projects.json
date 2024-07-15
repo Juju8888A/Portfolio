@@ -1,26 +1,58 @@
 [
-    {
-      "id": "1",
-      "title": "Booki",
-      "pictures": [
-        "/assets/images/booki/booki-accueil-2.jpg"
-      ],
-      "description": "Création de la page d'accueil de l'agence Booki avec HTML et CSS."
-    },
-    {
-      "id": "2",
-      "title": "Sophie Bluel",
-      "pictures": [
-        "/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
-      ],
-      "description": "Création d'une page web dynanique avec JavaScript"
-    },
-    {
-      "id": "3",
-      "title": "Kasa",
-      "pictures": [
-        "/assets/images/kasa/kasa_accueil.webp"
-      ],
-      "description": "Création d'une page web dynanique avec JavaScript"
-    }
-  ]
+  {
+    "id": "1",
+    "title": "Kasa",
+    "objectif":"Créez une application web de location immobilière avec React",
+    "competences": ["JavaScript", "React"],
+    "pictures": ["/assets/images/kasa/kasa_accueil.webp"],
+    "description": "Création d'une page web dynanique avec JavaScript",
+    "github": "https://github.com/Juju8888A/OC-Kasa.git"
+  },
+
+  {
+    "id": "2",
+    "title": "Sophie Bluel",
+    "objectif":"Créez une page web dynamique avec JavaScript",
+    "competences": ["JavaScript", "API", "Swagger"],
+    "pictures": [
+      "/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
+    ],
+    "description": "Création d'une page web dynanique avec JavaScript",
+    "github": "https://github.com/Juju8888A/OC-Portfolio-Sophie-Bluel.git"
+  },
+  {
+    "id": "3",
+    "title": "Booki",
+    "objectif":"Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "competences": ["HTML", "CSS", "Responsive"],
+    "pictures": ["/assets/images/booki/booki-accueil.webp"],
+    "description": "J'ai commencé par mettre en place l'environnement de développement, en utilisant Visual Studio Code et initialisé le projet avec Git, publié le repository sur Github. J'ai découpé visuellement la maquette fournie, pour créer la structure du code HTML. J'ai utilisé les balises sémantiques pour concevoir une page web optimisée. J'ai crée le formulaire, les filtres et l'affichage des cards. J'ai également mis en place le responsive design, en utilisant les media queries, le site est lisible sur ordinateur, tablette et mobile.",
+    "github": "https://github.com/Juju8888A/OC-Booki.git"
+  },
+  {
+    "id": "4",
+    "title": "Mon vieux grimoire",
+    "objectif":"Développez le back-end d'un site de notation de livres",
+    "competences": ["MongoDB", "NodeJS", "Express"],
+    "pictures": ["/assets/images/mon_vieux_grimoire/grimoire_accueil.webp"],
+    "description": "Création d'une page web dynanique avec JavaScript",
+    "github": "https://github.com/Juju8888A/OC-Mon-vieux-grimoire.git"
+  },
+  {
+    "id": "5",
+    "title": "Portfolio Nina Carducci",
+    "objectif":"Débuggez et optimisez un site de photographe",
+    "competences": ["SEO", "Accessibilité", "Lighthouse", "Wave"],
+    "pictures": ["/assets/images/nina_carducci/nina_carducci_accueil.webp"],
+    "description": "Création d'une page web dynanique avec JavaScript",
+    "github": "https://github.com/Juju8888A/OC-Photographe-Nina-Carducci.git"
+  },
+  {
+    "id": "6",
+    "title": "Menu Maker by Qwenta",
+    "objectif":"Planifiez le développement du site de votre client",
+    "competences": ["Gestion de projet", "Kanban", "Spécifications techniques", "Veille technologique"],
+    "pictures": ["/assets/images/menu_maker/menu-maker.webp"],
+    "description": "Création d'une page web dynanique avec JavaScript"
+  }
+]
