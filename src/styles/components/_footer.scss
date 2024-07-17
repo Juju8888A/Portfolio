@@ -10,13 +10,6 @@ footer {
       padding: 20px;
     }
 
-    #contact {
-      margin: 0 auto;
-      font-size: 3rem;
-      text-align: center;
-      color: #0d3c48;
-    }
-
     .infos {
       display: flex;
       justify-content: flex-start;
@@ -64,7 +57,11 @@ footer {
     justify-content: center;
     padding: 30px;
     height: 20%;
-    background-color: #0797b9;
+    background-color: #7dcedc;
     font-size: 1.2rem;
+
+    @media (max-width: 500px) {
+      font-size: 1rem;
+    }
   }
 }

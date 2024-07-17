@@ -18,7 +18,7 @@
     "pictures": [
       "/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
     ],
-    "description": "Pour ce projet, j'ai codé la page de connexion du site et créé un formulaire de connexion fonctionnel. J'ai mis les données existantes en dynamique et utilisé les requêtes pour communiquer avec l'API et sauvegarder des données, cela m'a également permis d'authentifier l'utilisateur et de recevoir un token d'authentification. L'utilisateur peut donc se connecter au site et accéder à l'ajout ou suppression d'un projet.",
+    "description": "Pour ce projet, j'ai codé la page de connexion du site et créé un formulaire fonctionnel. J'ai mis les données existantes en dynamique et utilisé les requêtes pour communiquer avec l'API et sauvegarder des données, cela m'a également permis de sécuriser la connexion de l'utilisateur, en recevant un token d'authentification. L'utilisateur peut donc se connecter au site et accéder à l'ajout ou suppression d'un projet.",
     "github": "https://github.com/Juju8888A/OC-Portfolio-Sophie-Bluel.git"
   },
   {
@@ -37,7 +37,7 @@
     "objectif":"Développement du back-end d'un site de notation de livres",
     "competences": ["MongoDB", "NodeJS", "Express"],
     "pictures": ["/assets/images/mon_vieux_grimoire/grimoire_accueil.webp"],
-    "description": "Pour le site Mon vieux grimoire, j'ai créé un serveur Express pour pouvoir créer, enregistrer et supprimer des livres. J'ai configuré et connecter le base de données MongoDB au projet. J'ai mis en place un système d'authentification pour sécuriser l'authentification des utilisateurs.",
+    "description": "Pour le site Mon vieux grimoire, j'ai créé un serveur Express et j'ai développé les modèles de données, implémenté des opérations CRUD pour la gestion des livres et notations, implémenté la gestion de téléchargement et d'optimisation des images. J'ai configuré et connecter le base de données MongoDB au projet. J'ai mis en place un système d'authentification pour sécuriser la connexion des utilisateurs.",
     "github": "https://github.com/Juju8888A/OC-Mon-vieux-grimoire.git"
   },
   {
@@ -55,6 +55,6 @@
     "objectif":"Planification du développement du site du client",
     "competences": ["Gestion de projet", "Kanban", "Spécifications techniques", "Veille technologique"],
     "pictures": ["/assets/images/menu_maker/menu-maker.webp"],
-    "description": "Sur ce projet, j'ai dû planifier le développement du site Menu Maker en réalisant un kanban et en organisant le projet avec la méthodologie Agile et Scrum. J'ai créé un planning avec des sprints, estimer la durée du projet grâce aux story points. J'ai également choisi et définit les choix techniques, quel framework, api ou base de données pour le projet. J'ai réalisé une veille technologique pour que l'équipe reste au courant des dernières nouveautés et mises à jour dans le domaine du développement web."
+    "description": "Sur ce projet, j'ai planifié le développement du site Menu Maker en réalisant un kanban et en organisant le projet avec la méthodologie Agile et Scrum. J'ai créé un planning avec des sprints, estimé la durée du projet grâce aux story points. J'ai également défini les choix techniques, quel framework, api ou base de données allait être nécessaire pour la réalisation du projet. J'ai réalisé une veille technologique pour que l'équipe reste au courant des dernières nouveautés et mises à jour dans le domaine du développement web sur Feedly."
   }
 ]

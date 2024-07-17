@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="contact-section">
-          <h4 id="contact">Contact</h4>
+          <h2 id="contact">Contact</h2>
         <div className="infos">
           <div className="icone">
             <ul>
