@@ -6,7 +6,8 @@
     "competences": ["JavaScript", "React"],
     "pictures": ["/assets/images/kasa/kasa_accueil.webp"],
     "description": "Ce projet m'a permis d'implémenter le front-end d'une application en utilisant React et React Router. Je me suis basée sur la maquette founie et utilisé des données extraites d'un fichier JSON. J'ai créé une page d'accueil, à propos, location individuelle et une page d'erreur. J'ai mis en place différents composants et utiliser Sass pour styliser le site.",
-    "github": "https://github.com/Juju8888A/OC-Kasa.git"
+    "github": "https://github.com/Juju8888A/OC-Kasa.git",
+    "site": "https://juju8888a.github.io/OC-Kasa/"
     
   },
 
