@@ -9,12 +9,8 @@ const About = () => {
       <div className="container-about">
         <div className="texte-liens">
           <p>
-            Animatrice 3D depuis 2015, je me suis reconvertie dans le
-            développement web, spécialisée en front-end. Ayant de base des
-            compétences techniques, plus un bagage créatif, je suis ravie
-            aujourd'hui de pouvoir apporter mes compétences en développement et
-            artistiques, dans le but de réaliser des projets innovants et de
-            créer des interfaces utilisateurs modernes et qualitatives.{" "}
+            Ayant travailler dans le secteur de l'animation 3D depuis 2015, je me suis reconvertie dans le
+            développement web en 2024 et spécialisée en React et NodeJS. Je possède un bagage créatif et technique qui, associé aujourd'hui à mes compétences en développement web, me permettent de réaliser des interfaces utilisateurs qualitatives et sécurisées, respectant les besoins des clients. J'ai également appris à travailler grâce à la méthodologie Agile et je sais optimiser un site pour lui apporter une meilleur visibilité et accessibilité.
           </p>
           <div className="liens-externes">
           <a href="https://github.com/Juju8888A" target="_blank" rel="noopener noreferrer" id="lien-github"><FontAwesomeIcon icon={faGithub}/></a>

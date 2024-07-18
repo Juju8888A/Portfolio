@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="details">
             <ul>
               <li>06 98 63 94 09</li>
-              <li>juliette.jourdan.work@gmail.com</li>
+              <li>jourdanjuliette@yahoo.fr</li>
               <li>Montpellier, France</li>
             </ul>
           </div>
