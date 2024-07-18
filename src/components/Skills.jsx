@@ -14,7 +14,7 @@ const Skills = () => {
     const frontendSkills = ["HTML", "CSS", "JavaScript", "React"];
     const backendSkills = ["NodeJS", "MongoDB", "Express"]
     const animationSkills = ["Autodesk Maya", "Photoshop"]
-    const cvUrl = "/assets/cv_jourdan_juliette_2024.pdf";
+    const cvUrl = "/Portfolio/assets/cv_jourdan_juliette_2024.pdf";
 
 
     return (

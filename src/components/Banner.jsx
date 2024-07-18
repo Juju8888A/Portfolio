@@ -5,7 +5,7 @@ const Banner = () => {
     <section className="banner">
       <h1>Bonjour ! <br/>
       Je suis Juliette Jourdan, <br/>
-      développeuse full stack React/NodeJS</h1>
+      développeuse front-end React</h1>
     </section>
   );
 };

@@ -2,9 +2,9 @@
   {
     "id": "1",
     "title": "Kasa",
-    "objectif":"Création d'une application web de location immobilière avec React",
+    "objectif":"Création d'une application web de location immobilière avec React - OpenClassrooms",
     "competences": ["JavaScript", "React"],
-    "pictures": ["/assets/images/kasa/kasa_accueil.webp"],
+    "pictures": ["/Portfolio/assets/images/kasa/kasa_accueil.webp"],
     "description": "Ce projet m'a permis d'implémenter le front-end d'une application en utilisant React et React Router. Je me suis basée sur la maquette founie et utilisé des données extraites d'un fichier JSON. J'ai créé une page d'accueil, à propos, location individuelle et une page d'erreur. J'ai mis en place différents composants et utiliser Sass pour styliser le site.",
     "github": "https://github.com/Juju8888A/OC-Kasa.git",
     "site": "https://juju8888a.github.io/OC-Kasa/"
@@ -13,9 +13,9 @@
   {
     "id": "2",
     "title": "Mon vieux grimoire",
-    "objectif":"Développement du back-end d'un site de notation de livres",
+    "objectif":"Développement du back-end d'un site de notation de livres - OpenClassrooms",
     "competences": ["MongoDB", "NodeJS", "Express"],
-    "pictures": ["/assets/images/mon_vieux_grimoire/grimoire_accueil.webp"],
+    "pictures": ["/Portfolio/assets/images/mon_vieux_grimoire/grimoire_accueil.webp"],
     "description": "Pour le site Mon vieux grimoire, j'ai créé un serveur Express et j'ai développé les modèles de données, implémenté des opérations CRUD pour la gestion des livres et notations, implémenté la gestion de téléchargement et d'optimisation des images. J'ai configuré et connecter le base de données MongoDB au projet. J'ai mis en place un système d'authentification pour sécuriser la connexion des utilisateurs.",
     "github": "https://github.com/Juju8888A/OC-Mon-vieux-grimoire.git"
   },
@@ -23,10 +23,10 @@
   {
     "id": "3",
     "title": "Portfolio Sophie Bluel",
-    "objectif":"Création d'une page web dynamique avec JavaScript",
+    "objectif":"Création d'une page web dynamique avec JavaScript - OpenClassrooms",
     "competences": ["JavaScript", "API", "Documentation Swagger"],
     "pictures": [
-      "/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
+      "/Portfolio/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
     ],
     "description": "Pour ce projet, j'ai codé la page de connexion du site et créé un formulaire fonctionnel. J'ai mis les données existantes en dynamique et utilisé les requêtes pour communiquer avec l'API et sauvegarder des données, cela m'a également permis de sécuriser la connexion de l'utilisateur, en recevant un token d'authentification. L'utilisateur peut donc se connecter au site et accéder à l'ajout ou suppression d'un projet.",
     "github": "https://github.com/Juju8888A/OC-Portfolio-Sophie-Bluel.git"
@@ -34,26 +34,26 @@
   {
     "id": "4",
     "title": "Portfolio Nina Carducci",
-    "objectif":"Optimisation et debug d'un site de photographe",
+    "objectif":"Optimisation et debug d'un site de photographe - OpenClassrooms",
     "competences": ["SEO", "Accessibilité", "Lighthouse", "Wave"],
-    "pictures": ["/assets/images/nina_carducci/nina_carducci_accueil.webp"],
+    "pictures": ["/Portfolio/assets/images/nina_carducci/nina_carducci_accueil.webp"],
     "description": "J'ai tout d'abord réalisé un rapport d'audit avec Lightouse. J'ai optimisé les performances du site en effectuant les modifications nécessaires. J'ai optimisé le SEO du site en prêtant attention à la sémantique du code. J'ai minifier les fichiers et ajouté un référencement local. J'ai corriger l'accessibilité du site pour permettre qu'il soit lisible par tous.",
     "github": "https://github.com/Juju8888A/OC-Photographe-Nina-Carducci.git"
   },
   {
     "id": "5",
     "title": "Menu Maker by Qwenta",
-    "objectif":"Planification du développement du site du client",
+    "objectif":"Planification du développement du site du client - OpenClassrooms",
     "competences": ["Gestion de projet", "Kanban", "Spécifications techniques", "Veille technologique"],
-    "pictures": ["/assets/images/menu_maker/menu-maker.webp"],
+    "pictures": ["/Portfolio/assets/images/menu_maker/menu-maker-accueil.webp"],
     "description": "Sur ce projet, j'ai planifié le développement du site Menu Maker en réalisant un kanban et en organisant le projet avec la méthodologie Agile et Scrum. J'ai créé un planning avec des sprints, estimé la durée du projet grâce aux story points. J'ai également défini les choix techniques, quel framework, api ou base de données allait être nécessaire pour la réalisation du projet. J'ai réalisé une veille technologique pour que l'équipe reste au courant des dernières nouveautés et mises à jour dans le domaine du développement web sur Feedly."
   },
   {
     "id": "6",
     "title": "Booki",
-    "objectif":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "objectif":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS - OpenClassrooms",
     "competences": ["HTML", "CSS", "Responsive"],
-    "pictures": ["/assets/images/booki/booki-accueil.webp"],
+    "pictures": ["/Portfolio/assets/images/booki/booki-accueil.webp"],
     "description": "J'ai commencé par mettre en place l'environnement de développement, en utilisant Visual Studio Code et initialisé le projet avec Git, publié le repository sur Github. J'ai découpé visuellement la maquette fournie, pour créer la structure du code HTML. J'ai utilisé les balises sémantiques pour concevoir une page web optimisée. J'ai crée le formulaire, les filtres et l'affichage des cards. J'ai également mis en place le responsive design, en utilisant les media queries, le site est lisible sur ordinateur, tablette et mobile.",
     "github": "https://github.com/Juju8888A/OC-Booki.git",
     "site": "https://juju8888a.github.io/OC-Booki/"
