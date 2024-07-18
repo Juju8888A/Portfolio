@@ -24,6 +24,11 @@
   max-width: 700px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
+  @media (max-width: 768px) {
+    max-height: 700px;
+    overflow-y: scroll;
+  }
+
   #cross {
     display: flex;
     justify-content: flex-end;

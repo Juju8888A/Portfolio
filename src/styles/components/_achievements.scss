@@ -57,6 +57,10 @@
         opacity: 0;
         z-index: 2;
         pointer-events: none;
+
+        @media (max-width: 1024px) {
+          opacity: 1;
+        }
       }
     }
 
@@ -73,6 +77,11 @@
       border-radius: 10px;
       z-index: 1;
       pointer-events: none;
+
+      @media (max-width: 1024px) {
+        opacity: 1;
+        background-color: rgba(13, 60, 72, 0.7);
+      }
     }
 
     figure:hover:after {
