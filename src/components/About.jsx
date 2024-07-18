@@ -9,7 +9,7 @@ const About = () => {
       <div className="container-about">
         <div className="texte-liens">
           <p>
-            Ayant travailler dans le secteur de l'animation 3D depuis 2015, je me suis reconvertie dans le
+            Ayant travaillé dans le secteur de l'animation 3D depuis 2015, je me suis reconvertie dans le
             développement web en 2024 et spécialisée en React et NodeJS. Je possède un bagage créatif et technique qui, associé aujourd'hui à mes compétences en développement web, me permettent de réaliser des interfaces utilisateurs qualitatives et sécurisées, respectant les besoins des clients. J'ai également appris à travailler grâce à la méthodologie Agile et je sais optimiser un site pour lui apporter une meilleur visibilité et accessibilité.
           </p>
           <div className="liens-externes">
