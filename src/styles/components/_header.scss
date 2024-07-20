@@ -5,29 +5,24 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
   align-items: center;
   padding: 20px 40px;
   background-color: #fafdfe;
 
-  .logo-container h2 {
-    color: #0d3c48;
-    font-size: 3rem;
-    font-family: "Playwrite NL", cursive;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 
-    @media (max-width: 1280px) {
-      margin-right: 50px;
-      font-size: 2.5rem;
+  .logo-container {
+    img {
+      width: 250px;
     }
   }
 
   nav {
-    @media (max-width: 980px) {
+    @media (max-width: 1024px) {
       margin-top: 30px;
-      margin-bottom: 20px;
-      display: flex;
-      width: 100%;
-      justify-content: center;
+      margin-bottom: 30px;
     }
     ul {
       display: flex;
@@ -36,6 +31,10 @@ header {
       list-style-type: none;
       padding: 0;
       gap: 50px;
+
+      @media (max-width: 1024px) {
+        justify-content: center;
+      }
 
       a {
         text-decoration: none;

@@ -1,9 +1,10 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 const Logo = () => {
     return (
         <div className='logo-container'>
-            <h2>Portfolio</h2>
+            <NavLink to="/"><img src="/Portfolio/assets/images/logo.png" alt="logo du portfolio de juliette jourdan"/></NavLink>
         </div>
     );
 };
