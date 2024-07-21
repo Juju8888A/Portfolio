@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <BrowserRouter basename={"production" ? "/Portfolio" : "/"}>
+    <BrowserRouter basename={"/Portfolio"}>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
