@@ -1,6 +1,15 @@
 [
   {
     "id": "1",
+    "title": "Portfolio illustratrice",
+    "objectif":"Création d'un site portfolio pour une illustratrice avec React",
+    "competences": ["JavaScript", "React"],
+    "pictures": ["/Portfolio/assets/images/portfolio_soreau/catherine-soreau-illustration-fantastique-océan.webp"],
+    "description": "EN COURS - La cliente souhaite que je réalise son site portfolio pour pouvoir présenter ses travaux lors de ses entretiens. Je vais réaliser le front end du site en utilisant React.",
+    "github": "https://github.com/Juju8888A/Portfolio-Catherine-Soreau.git"
+  },
+  {
+    "id": "2",
     "title": "Kasa",
     "objectif":"Création d'une application web de location immobilière avec React - OpenClassrooms",
     "competences": ["JavaScript", "React"],
@@ -11,7 +20,7 @@
     
   },
   {
-    "id": "2",
+    "id": "3",
     "title": "Mon vieux grimoire",
     "objectif":"Développement du back-end d'un site de notation de livres - OpenClassrooms",
     "competences": ["MongoDB", "NodeJS", "Express"],
@@ -21,7 +30,7 @@
   },
 
   {
-    "id": "3",
+    "id": "4",
     "title": "Portfolio Sophie Bluel",
     "objectif":"Création d'une page web dynamique avec JavaScript - OpenClassrooms",
     "competences": ["JavaScript", "API", "Documentation Swagger"],
@@ -32,7 +41,7 @@
     "github": "https://github.com/Juju8888A/OC-Portfolio-Sophie-Bluel.git"
   },
   {
-    "id": "4",
+    "id": "5",
     "title": "Portfolio Nina Carducci",
     "objectif":"Optimisation et debug d'un site de photographe - OpenClassrooms",
     "competences": ["SEO", "Accessibilité", "Lighthouse", "Wave"],
@@ -41,7 +50,7 @@
     "github": "https://github.com/Juju8888A/OC-Photographe-Nina-Carducci.git"
   },
   {
-    "id": "5",
+    "id": "6",
     "title": "Menu Maker by Qwenta",
     "objectif":"Planification du développement du site du client - OpenClassrooms",
     "competences": ["Gestion de projet", "Kanban", "Spécifications techniques", "Veille technologique"],
@@ -49,7 +58,7 @@
     "description": "Sur ce projet, j'ai planifié le développement du site Menu Maker en réalisant un kanban et en organisant le projet avec la méthodologie Agile et Scrum. J'ai créé un planning avec des sprints, estimé la durée du projet grâce aux story points. J'ai également défini les choix techniques, quel framework, api ou base de données allait être nécessaire pour la réalisation du projet. J'ai réalisé une veille technologique pour que l'équipe reste au courant des dernières nouveautés et mises à jour dans le domaine du développement web sur Feedly."
   },
   {
-    "id": "6",
+    "id": "7",
     "title": "Booki",
     "objectif":"Création de la page d'accueil d'une agence de voyage avec HTML & CSS - OpenClassrooms",
     "competences": ["HTML", "CSS", "Responsive"],
