@@ -1,7 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { NavLink } from "react-router-dom";
 
-const Skill = ( {icone, title, description, otherTitle, skills} ) => {
+const Skill = ( {icone, title, description, otherTitle, skills, link} ) => {
     return (
         <div className="skills-card">
             <span><FontAwesomeIcon icon={icone} /></span>
@@ -13,7 +14,9 @@ const Skill = ( {icone, title, description, otherTitle, skills} ) => {
                     <li key={index}>{skill}</li>
                 ))}
             </ul>
-            
+            {link && (
+                <a href={link} target="_blank" id='link-demo'>DEMO</a>
+            )}      
         </div>
     );
 };

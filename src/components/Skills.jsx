@@ -25,7 +25,7 @@ const Skills = () => {
             <Skill icone={faComputer} title="Développement front-end" description="Développement d'interfaces responsives, dynamiques et fonctionnelles / SEO / Gestion de projet Agile" otherTitle="Logiciels, langages utilisés" skills={frontendSkills}/>
             <Skill icone={faServer} title="Développement back-end" description="Gestion d'un serveur, des interactions utilisateurs, communiquer avec des
 APIs, utilisation des opérations CRUD, sécurisation des données, authentification" otherTitle="Logiciels, langages utilisés" skills={backendSkills}/>
-            <Skill icone={faFilm} title="Animation 3D" description="Animation de personnages fluides, cartoons ou réalistes en respectant les contraintes techniques" otherTitle="Logiciels, langages utilisés" skills={animationSkills}/>
+            <Skill icone={faFilm} title="Animation 3D" description="Animation de personnages fluides, cartoons ou réalistes en respectant les contraintes techniques" otherTitle="Logiciels, langages utilisés" skills={animationSkills} link="https://youtu.be/2mbKy4_5hu0"/>
             </div>
             <DownloadButton fileUrl={cvUrl} fileName="cv_juliette_jourdan.pdf" />
         </section>
