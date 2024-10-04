@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="contact-section">
-          <h2 id="contact">Contact</h2>
+        <h2 id="contact">Contact</h2>
         <div className="infos">
           <div className="icone">
             <ul>
@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="details">
             <ul>
               <li>06 98 63 94 09</li>
-              <li>jourdanjuliette@yahoo.fr</li>
+              <li>juliette.jourdan.work@gmail.com</li>
               <li>Montpellier, France</li>
             </ul>
           </div>
