@@ -1,14 +1,14 @@
 [
   {
     "id": "1",
-    "title": "Portfolio Animatrice 3D",
-    "objectif": "Création d'un site portfolio pour une animatrice 3D avec React",
-    "competences": ["JavaScript", "React"],
+    "title": "Portfolio d'une illustratrice",
+    "objectif": "Création d'un site portfolio pour une illustratrice avec HTML, CSS, JavaScript",
+    "competences": ["HTML", "CSS/SASS", "JavaScript"],
     "pictures": [
       "/Portfolio/assets/images/portfolio_soreau/catherine-soreau-illustration-fantastique-océan.webp"
     ],
-    "description": "Développement d'un site portfolio, réalisation de la partie front end du site en utilisant React.",
-    "github": "https://github.com/Juju8888A/Portfolio-Catherine-Soreau.git"
+    "description": "Développement de la partie front end du site avec HTML, CSS et JavaScript. Le site est responsive sur téléphone et tablette. J'ai pu réaliser un carousel, un menu burger.",
+    "github": "https://github.com/Juju8888A/CS-Portfolio.git"
   },
   {
     "id": "2",
@@ -16,7 +16,7 @@
     "objectif": "Création d'une application web de location immobilière avec React - OpenClassrooms",
     "competences": ["JavaScript", "React"],
     "pictures": ["/Portfolio/assets/images/kasa/kasa_accueil.webp"],
-    "description": "Ce projet m'a permis d'implémenter le front-end d'une application en utilisant React et React Router. Je me suis basée sur la maquette founie et utilisé des données extraites d'un fichier JSON. J'ai créé une page d'accueil, à propos, location individuelle et une page d'erreur. J'ai mis en place différents composants et utiliser Sass pour styliser le site.",
+    "description": "Ce projet m'a permis d'implémenter le front-end d'une application en partant de 0 et en utilisant React et React Router. Je me suis basée sur la maquette founie et utilisé des données extraites d'un fichier JSON. J'ai créé une page d'accueil, à propos, location individuelle et une page d'erreur. J'ai mis en place différents composants et utiliser Sass pour styliser le site.",
     "github": "https://github.com/Juju8888A/OC-Kasa.git",
     "site": "https://juju8888a.github.io/OC-Kasa/"
   },
@@ -28,7 +28,7 @@
     "pictures": [
       "/Portfolio/assets/images/mon_vieux_grimoire/grimoire_accueil.webp"
     ],
-    "description": "Pour le site Mon vieux grimoire, j'ai créé un serveur Express et j'ai développé les modèles de données, implémenté des opérations CRUD pour la gestion des livres et notations, implémenté la gestion de téléchargement et d'optimisation des images. J'ai configuré et connecter le base de données MongoDB au projet. J'ai mis en place un système d'authentification pour sécuriser la connexion des utilisateurs.",
+    "description": "Pour le projet Mon vieux grimoire, je me suis occupée de la partie backend du site, j'ai créé un serveur Express et j'ai développé les modèles de données, implémenté des opérations CRUD pour la gestion des livres et notations, implémenté la gestion de téléchargement et d'optimisation des images. J'ai configuré et connecter le base de données MongoDB au projet. J'ai mis en place un système d'authentification pour sécuriser la connexion des utilisateurs.",
     "github": "https://github.com/Juju8888A/OC-Mon-vieux-grimoire.git"
   },
 
@@ -40,7 +40,7 @@
     "pictures": [
       "/Portfolio/assets/images/portfolio_sophie_bluel/sophie_bluel_accueil.webp"
     ],
-    "description": "Pour ce projet, j'ai codé la page de connexion du site et créé un formulaire fonctionnel. J'ai mis les données existantes en dynamique et utilisé les requêtes pour communiquer avec l'API et sauvegarder des données, cela m'a également permis de sécuriser la connexion de l'utilisateur, en recevant un token d'authentification. L'utilisateur peut donc se connecter au site et accéder à l'ajout ou suppression d'un projet.",
+    "description": "Pour ce projet, j'ai cloné le repository du site disponible et j'ai codé la partie affichage des projets sur la page principale, avec la barre de filtres et le formulaire de connexion du site sur la page de connexion. J'ai mis les données des travaux de l'architecte existantes en dynamique et utilisé les requêtes pour communiquer avec l'API, pour récupérer, sauvegarder et supprimer les travaux. J'ai également sécuriser la connexion de l'utilisateur en utilisant un token d'authentification stocké dans le local storage. L'utilisateur peut donc se connecter au site et accéder à l'ajout ou suppression d'un projet.",
     "github": "https://github.com/Juju8888A/OC-Portfolio-Sophie-Bluel.git"
   },
   {
@@ -51,7 +51,7 @@
     "pictures": [
       "/Portfolio/assets/images/nina_carducci/nina_carducci_accueil.webp"
     ],
-    "description": "J'ai tout d'abord réalisé un rapport d'audit avec Lightouse. J'ai optimisé les performances du site en effectuant les modifications nécessaires. J'ai optimisé le SEO du site en prêtant attention à la sémantique du code. J'ai minifier les fichiers et ajouté un référencement local. J'ai corriger l'accessibilité du site pour permettre qu'il soit lisible par tous.",
+    "description": "Sur ce projet, j'ai tout d'abord réalisé un rapport d'audit avec Lightouse sur le code déjà existant. J'ai optimisé les performances du site en effectuant les modifications nécessaires. J'ai optimisé le SEO du site en prêtant attention à la sémantique du code. J'ai minifier les fichiers et ajouté un référencement local. J'ai également corrigé l'accessibilité du site grâce à l'outil Wave.",
     "github": "https://github.com/Juju8888A/OC-Photographe-Nina-Carducci.git"
   },
   {
@@ -66,15 +66,5 @@
     ],
     "pictures": ["/Portfolio/assets/images/menu_maker/menu-maker-accueil.webp"],
     "description": "Sur ce projet, j'ai planifié le développement du site Menu Maker en réalisant un kanban et en organisant le projet avec la méthodologie Agile et Scrum. J'ai créé un planning avec des sprints, estimé la durée du projet grâce aux story points. J'ai également défini les choix techniques, quel framework, api ou base de données allait être nécessaire pour la réalisation du projet. J'ai réalisé une veille technologique pour que l'équipe reste au courant des dernières nouveautés et mises à jour dans le domaine du développement web sur Feedly."
-  },
-  {
-    "id": "7",
-    "title": "Booki",
-    "objectif": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS - OpenClassrooms",
-    "competences": ["HTML", "CSS", "Responsive"],
-    "pictures": ["/Portfolio/assets/images/booki/booki-accueil.webp"],
-    "description": "J'ai commencé par mettre en place l'environnement de développement, en utilisant Visual Studio Code et initialisé le projet avec Git, publié le repository sur Github. J'ai découpé visuellement la maquette fournie, pour créer la structure du code HTML. J'ai utilisé les balises sémantiques pour concevoir une page web optimisée. J'ai crée le formulaire, les filtres et l'affichage des cards. J'ai également mis en place le responsive design, en utilisant les media queries, le site est lisible sur ordinateur, tablette et mobile.",
-    "github": "https://github.com/Juju8888A/OC-Booki.git",
-    "site": "https://juju8888a.github.io/OC-Booki/"
   }
 ]
