@@ -1,5 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowRight,
+  faArrowLeft
+} from "@fortawesome/free-solid-svg-icons";
 
 const Skill = ({ icone, title, description, otherTitle, skills, link }) => {
   return (
@@ -16,9 +20,7 @@ const Skill = ({ icone, title, description, otherTitle, skills, link }) => {
         ))}
       </ul>
       {link && (
-        <a href={link} target="_blank" id="link-demo">
-          DEMO
-        </a>
+        <a href={link} target="_blank" id="link-demo"><FontAwesomeIcon icon={faArrowRight} /> DEMOREEL <FontAwesomeIcon icon={faArrowLeft} /></a>
       )}
     </div>
   );

@@ -37,7 +37,7 @@ const Skills = () => {
           description="Animation de personnages fluides, cartoons ou réalistes en respectant les contraintes techniques"
           otherTitle="Logiciels, langages utilisés"
           skills={animationSkills}
-          link="https://youtu.be/2mbKy4_5hu0"
+          link="https://jourdanjuliette.wixsite.com/2d3d"
         />
       </div>
       <DownloadButton fileUrl={cvUrl} fileName="cv_juliette_jourdan.pdf" />
