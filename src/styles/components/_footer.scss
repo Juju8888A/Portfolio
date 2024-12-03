@@ -53,16 +53,18 @@ footer {
     }
   }
 
-  .bottom-page {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    height: 20%;
-    background-color: #7dcedc;
-    font-size: 1.2rem;
+  
+}
 
-    @media (max-width: 500px) {
-      font-size: 1rem;
-    }
+.bottom-page {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  height: 20%;
+  background-color: #7dcedc;
+  font-size: 1.2rem;
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
   }
 }

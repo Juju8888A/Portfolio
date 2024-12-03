@@ -1,11 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowRight,
-  faArrowLeft
-} from "@fortawesome/free-solid-svg-icons";
 
-const Skill = ({ icone, title, description, otherTitle, skills, link }) => {
+const Skill = ({ icone, title, description, otherTitle, skills }) => {
   return (
     <div className="skills-card">
       <span>
@@ -19,9 +15,6 @@ const Skill = ({ icone, title, description, otherTitle, skills, link }) => {
           <li key={index}>{skill}</li>
         ))}
       </ul>
-      {link && (
-        <a href={link} target="_blank" id="link-demo"><FontAwesomeIcon icon={faArrowRight} /> DEMOREEL <FontAwesomeIcon icon={faArrowLeft} /></a>
-      )}
     </div>
   );
 };

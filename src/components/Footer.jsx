@@ -5,6 +5,7 @@ import {
   faMobile,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
+import BottomPage from "./BottomPage";
 
 const Footer = () => {
   return (
@@ -35,9 +36,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bottom-page">
-        <p>© 2024 - Juliette Jourdan</p>
-      </div>
+      <BottomPage />
     </footer>
   );
 };
