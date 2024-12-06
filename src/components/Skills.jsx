@@ -9,7 +9,7 @@ import {
 
 const Skills = () => {
   const frontendSkills = ["HTML", "CSS", "JavaScript", "React"];
-  const backendSkills = ["NodeJS", "Express", "MongoDB"];
+  const backendSkills = ["Node.js", "Express", "MongoDB", "MariaDB"];
   const animationSkills = ["Autodesk Maya", "Photoshop"];
   const cvUrl = "/Portfolio/assets/cv_jourdan_juliette_2024.pdf";
 
@@ -27,7 +27,7 @@ const Skills = () => {
         <Skill
           icone={faServer}
           title="Développement back-end"
-          description="Gestion d'un serveur Express, utilisation des opérations CRUD"
+          description="Gestion d'un serveur avec Node.js, utilisation du framework Express, utilisation des bases de données SQL ou noSQL, gestion des opérations CRUD"
           otherTitle="Logiciels, langages utilisés"
           skills={backendSkills}
         />
